@@ -1,7 +1,9 @@
-import React from 'react'
-
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 function Information() {
   return (
+    <>
+    <Header />
     <section id="beneficios" class="py-20 bg-white border-t border-b border-gray-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-2xl mx-auto mb-14">
@@ -106,6 +108,8 @@ function Information() {
         </div>
       </div>
     </section>
+    <Footer />
+    </>
   )
 }
 
